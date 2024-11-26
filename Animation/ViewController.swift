@@ -87,7 +87,7 @@ final class ViewController: UIViewController {
 }
 
 // MARK: - helpers
-extension ViewController {
+private extension ViewController {
     func format(_ value: Double) -> String {
         String(format: "%.2f", value)
     }
